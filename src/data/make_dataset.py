@@ -356,7 +356,7 @@ class ExtractFeatures(luigi.Task):
 class BlancePanel(luigi.Task):
 
     #date_interval = luigi.DateIntervalParameter()
-    targetFileName = data_path+"data/raw/balancedPanel.csv"
+    targetFileName = data_path+"data/raw/balancedPanel_dummy.csv"
 
     def output(self):
         return luigi.LocalTarget(self.targetFileName)
