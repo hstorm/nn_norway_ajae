@@ -15,13 +15,8 @@ The main data file including the farm level activity levels is confidential and 
 
 ## Data Availability and Provenance Statements
 
-### Statement about Rights
-
-- [x] I certify that the author(s) of the manuscript have legitimate access to and permission to use the data used in this manuscript. 
-- [ ] I certify that the author(s) of the manuscript have documented permission to redistribute/publish the data contained within this replication package. Appropriate permission are documented in the [LICENSE.txt](LICENSE.txt) file.
-
-### License for Code and Data
-The provided code and data are licensed under a Creative Commons/CC-BY-NC license. See LICENSE.txt for details.
+### License for Data
+The provided code and data are licensed under a MIT license. See [LICENSE](LICENSE) for details.
 
 ### Summary of Availability
 
@@ -267,7 +262,7 @@ Most important parts are:
 
 ### License for Code
 
-The code is licensed under a MIT license. See [LICENSE.txt](LICENSE.txt) for details.
+The code is licensed under a MIT license. See [LICENSE](LICENSE) for details.
 
 ## Instructions to Replicators
 
