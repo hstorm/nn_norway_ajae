@@ -41,7 +41,7 @@ The provided code and data are licensed under a Creative Commons/CC-BY-NC licens
 #### Farm Activities
 Data file: `balancedPanel_dummy.csv`
 
-The data of farm level activities used for this project are confidential, but may be obtained with Data Use Agreements with the Norwegian Agriculture Agency [NAA] (www.landbruksdirektoratet.no, in Norwegian only). Researchers interested in access to the data may contact co-author Klaus Mittenzwei to establish communication with contact persons at NAA. Once a Data Use Agreement is obtained for the variables listed under “Codebook data/raw/balancedPanel.csv“ the authors can provide a preprocess data file that allows to replicate the analysis. For testing the code a dummy dataset is provided. This dummy data set has the same structure as the original data but contains randomly generated values. 
+The data of farm level activities used for this project are confidential, but may be obtained with Data Use Agreements with the Norwegian Agriculture Agency [NAA] (www.landbruksdirektoratet.no, in Norwegian only). Researchers interested in access to the data may contact co-author Klaus Mittenzwei to establish communication with contact persons at NAA. Once a Data Use Agreement is obtained for the variables listed under “Codebook data/raw/balancedPanel.csv“ the authors can provide a pre-process data file that allows to replicate the analysis. For testing the code a dummy dataset is provided. This dummy data set has the same structure as the original data but contains randomly generated values. 
 
 #### Subsidy Rates
 Data files: `satser.csv`; `bunn.csv`; `maks.csv`; `trin.csv` 
@@ -232,12 +232,14 @@ The application is build for a Linux environment. It has been tested on a machin
 #### Pull docker image from Docker Hub
 Pul and run the container: `docker run --gpus all -it hstorm/nn_norway_ajae:1.0`
 
-#### Rebuild docker image locally
+--- 
+#### (Alternative) Rebuild docker image locally
+
 Pull the repository from GitHub: `git clone https://github.com/hstorm/nn_norway_ajae.git` 
 Build docker image: `docker build -t nn_norway_ajae:1.0 .`
-
-#### Run docker image
 To Start container: `docker run --gpus all -it nn_norway_ajae:1.0`
+
+--- 
 
 Once the container is running, you can attach a shell and run the code as described below.
 
