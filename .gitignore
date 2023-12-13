@@ -13,7 +13,7 @@ reports/*.csv
 /models\\Logs*/
 /t_r/
 /venv_nnnorway/
-.csv
+# .csv
 .h5
 .pkl
 
@@ -99,7 +99,7 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+# /data/
 ~$ModelBenchmarkList.xlsx
 ModelBenchmarkList.xlsx
 test.csv
